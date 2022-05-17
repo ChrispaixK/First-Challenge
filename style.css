@@ -1,0 +1,93 @@
+
+/********HEADER******/
+
+header{
+    height: 50px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+.item1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.bar_menu i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.item2{
+    height: 50px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+}
+.search_bar input{
+    border: 1px solid gray;
+    height: 40px;
+    width: 450px;
+    border-radius: 15px 0px 0 15px;
+}
+.search_bar input:placeholder{
+    color: red;
+}
+.search_button button{
+    height: 43.5px;
+    border: 1px solid black;
+    border-radius: 0 15px 15px 0 ;
+}
+
+.search_button i{
+    font-size: 20px;
+    width: 30px;
+}
+.search_byVoice i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.item3{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item3 i{
+    font-size: 20px;
+}
+
+.login img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid greenyellow;
+}
+
+/********MAIN-SECTION**********/
+
+.main{
+    border: 2px solid red;
+    height: 600px;
+    display: flex;
+}
+.actual_video{
+    border: 1px solid blue;
+    flex-grow: 2;
+    flex-basis: 0;
+}
+.suggestion{
+    border: 1px solid blue;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.video iframe{
+    border: 1px solid goldenrod;
+    width:100%;
+    height: 500px;
+}
