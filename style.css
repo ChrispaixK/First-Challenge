@@ -75,13 +75,11 @@ header{
     height: 600px;
     display: flex;
     height: auto;
-    border: 2px solid red;
 }
 .actual_video{
     margin: 0 20px;
     flex-grow: 2;
     flex-basis: 0;
-    border: 1px solid blue;
 }
 .suggestion{
     border-left: 1px solid gainsboro;
@@ -208,7 +206,6 @@ header{
     font-weight: 900;
 }
 .comments{
-    border: 2px solid goldenrod;
     margin-top:  20px;
     padding-bottom: 10px;
 }
@@ -243,7 +240,6 @@ header{
     border-radius: 30px;
 }
 .comment_details{
-    border: 2px solid green;
     margin-left: 10px;
 }
 .comment_details i{
