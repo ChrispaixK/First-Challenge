@@ -257,6 +257,9 @@ header{
     margin: 0;
     font-size: 14px;
 }
+#pin{
+    color: red;
+}
 .comment_reaction{
     display: flex;
 }
