@@ -12,7 +12,7 @@
 - CSS
 ## Live Demo Link
 
-Check out the live demo [here](https://space-travelers-hub-chrispaix-sid.netlify.app/).
+Check out the live demo [here](https://chrispaixk.github.io/First-Challenge/).
 
 ## Authors
 
